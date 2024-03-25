@@ -1,0 +1,6 @@
+@dotnetapitest_HostAddress = http://localhost:5128
+
+GET {{dotnetapitest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
